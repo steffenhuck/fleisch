@@ -100,6 +100,22 @@ body{
   cursor: zoom-in;
 }
 
+.signature{
+  margin-top: clamp(80px, 12vw, 140px);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+}
+
+.signature a{
+  color: rgba(45,49,54,0.45);
+  text-decoration: none;
+}
+
+.signature a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Mobile */
 
 @media (max-width: 640px){
